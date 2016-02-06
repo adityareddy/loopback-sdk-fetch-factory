@@ -1,7 +1,7 @@
 {
-  "name": "loopback-sdk-angular",
-  "version": "1.6.0",
-  "description": "Tool for auto-generating Angular $resource services for LoopBack",
+  "name": "loopback-sdk-fetch-factory",
+  "version": "0.0.3",
+  "description": "Tool for auto-generating Fetch factory services for LoopBack",
   "main": "index.js",
   "scripts": {
     "prepublish": "node ./apidocs/describe-builtin-models.js",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strongloop/loopback-sdk-angular.git"
+    "url": "git://github.com/adityareddy/loopback-sdk-fetch-factory.git"
   },
   "keywords": [
     "loopback",
-    "angular"
+    "fetch"
   ],
-  "author": "Miroslav Bajtos <miroslav@strongloop.com>",
+  "author": "Aditya Reddy <p.aditya.reddi@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/strongloop/loopback-sdk-angular/issues"
+    "url": "https://github.com/adityareddy/loopback-sdk-fetch-factory/issues"
   },
   "dependencies": {
     "ejs": "^1.0"
